@@ -1,0 +1,69 @@
+.one{
+  text-decoration: none;
+  color: black; 
+  padding: 2px 5px;
+}
+.one:hover{
+  background-color: blue;
+  color: whitesmoke;
+  box-shadow: 5px 5px 3px grey;
+
+}
+.carousel-inner{
+  height: 350px;
+}
+.tone{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-body{
+  text-align: center;}
+.card{
+  height: 350px;
+  box-shadow: 5px 5px 4px rgb(0,0,0,0.6);
+
+  }
+body{
+    background: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.6)),url('https://th.bing.com/th/id/OIP.uAWLq-HbYwBL6kUkEjyMwAHaDt?pid=ImgDet&rs=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .office{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(164, 233, 164);
+    box-shadow: 5px 5px 4px grey;
+  }
+  .new{
+    border: 1px solid none;
+    background-color: rgb(0,0,0,0.6);
+    margin-top: 20px;
+
+  }
+ 
+  .old{
+    border: 1px solid green;
+    margin: 30px 100px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(79, 154, 129);
+  }
+  .centerd{
+    text-align: center;
+    color:white;
+    align-items: center;
+    border: 1px solid none; 
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    margin: 50px;
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 4px grey; */
+  }
+  @media (max-width:530px){
+    .centerd{
+      flex-wrap: wrap;
+    }
+  }
+
